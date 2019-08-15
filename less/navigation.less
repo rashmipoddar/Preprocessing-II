@@ -1,1 +1,19 @@
 // Navigation Styles here
+
+nav {
+  padding: 20px 0;
+  margin-top: 30px; 
+  border-bottom: 2px dashed @navigation-border;
+  .custom-layout(@justify:flex-start, @align:center);
+
+  div {
+    width: 80%;
+    .custom-layout(@justify:flex-end, @align:center);
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.6rem;
+      padding-left: 30px;
+    }
+  }
+}

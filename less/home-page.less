@@ -1,4 +1,15 @@
 .home {
+  
+  .intro {
+    h2 {
+      padding-top: 3%;
+    }
+    
+    p {
+      padding-bottom: 3%;
+      border-bottom: 2px dashed @navigation-border;
+    }
+  }
 
   .content-section {
     margin: 30px 0;
@@ -56,6 +67,11 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn {
+        .button(2rem, @eastern-blue, @white, 1.5rem, 18%, center, 80%);
+        line-height: 2.2;
+      }
     }
   }
 }// home
