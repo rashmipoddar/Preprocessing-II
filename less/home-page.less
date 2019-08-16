@@ -94,9 +94,15 @@
           margin: 0 auto;
         }
 
+        h4 {
+          .animation(fontSizeChange, 4s);
+        }
+
+
         .btn {
           .button(2rem, @eastern-blue, @white, 1.5rem, 18%, center, 80%);
           line-height: 2.2;
+          .text-shadow();
           @media @mobile {
             .button(2rem, @eastern-blue, @white, 1.5rem, 18%, center, 100%);
             margin-bottom: 8%;
